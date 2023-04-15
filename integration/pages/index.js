@@ -32,6 +32,5 @@
       cy.get(this.Xiaomi).click();
     }
 
-
  }
  export default new indexPage

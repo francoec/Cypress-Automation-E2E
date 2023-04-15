@@ -1,8 +1,10 @@
+/// < reference types="cypress" />
+
 import indexPage from '../pages/index'
 
 describe('Home de la page', () =>{
     beforeEach(() => {
-        cy.visit('https://www.movistar.com.ar/')
+        cy.visit('/')
     })
 
     it('CP01 should filter for motorola', () => {
